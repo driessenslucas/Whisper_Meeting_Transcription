@@ -1,10 +1,8 @@
-Here's a README template for your Python script that outlines its purpose, setup instructions, usage, and other relevant details.
-
----
-
 # Audio Processing with Whisper and OpenAI
 
 This project provides a solution for processing audio files stored in a Google Cloud Storage (GCS) bucket. The script downloads audio files, converts them to WAV format, transcribes the audio using the Whisper model, summarizes the transcriptions with OpenAI's API, and then uploads the results back to the GCS bucket. 
+
+> Note this is using a local implementation of whisper, depending on your machine it will be very slow
 
 ## Features
 
@@ -93,7 +91,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - [OpenAI](https://openai.com/)
 - [Faster Whisper](https://github.com/guillaumeleclercq/faster-whisper)
 - [pydub](https://github.com/jiaaro/pydub)
-
----
-
-Feel free to customize this template further based on your specific project needs!
