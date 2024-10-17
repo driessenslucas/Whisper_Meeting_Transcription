@@ -26,8 +26,8 @@ This project provides a solution for processing audio files stored in a Google C
 1. Clone the repository:
 
    ```bash
-   git clone 
-   cd <repository-directory>
+   git clone https://github.com/driessenslucas/Whisper_Meeting_Transcription.git
+   cd Whisper_Meeting_Transcription
    ```
 
 2. Create a `.env` file in the project root and add your API keys and bucket name:
